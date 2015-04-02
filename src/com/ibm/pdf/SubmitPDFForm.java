@@ -137,9 +137,9 @@ public class SubmitPDFForm extends HttpServlet {
 
 		// Actual logic goes here.
 		PrintWriter out = response.getWriter();
-		out.println("<h1> Name : " + name + "</h1>");
-
-		out.println("<h1> Email :" + email + "</h1>");
+		out.println("<h1> User : " + email + " has uploaded a pdf file</h1>");
+		out.println("<br>");
+		out.println("<a href='index.jsp'>Home</a>");
 		//out.println("<h1> File Content " + bytes + "</h1>");
 	}
 
