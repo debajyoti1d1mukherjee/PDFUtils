@@ -34,6 +34,7 @@ import com.ibm.websphere.objectgrid.security.plugins.builtins.UserPasswordCreden
 public class GetPDFFile extends HttpServlet{
 	
 	private PDFDao pdfDao = new PDFDaoImpl();
+	
 
 	Session ogSession = null;
 

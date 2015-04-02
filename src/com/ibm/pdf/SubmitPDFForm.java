@@ -123,8 +123,7 @@ public class SubmitPDFForm extends HttpServlet {
 				}
 				pdfDao.insertUserDetails(pdfBean);
 				sendEmail(pdfBean.getUserEmail());
-				
-			}
+				}
 	        
 	    } catch (FileUploadException e) {
 	        e.printStackTrace();
