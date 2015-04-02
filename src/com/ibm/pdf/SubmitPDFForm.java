@@ -118,8 +118,6 @@ public class SubmitPDFForm extends HttpServlet {
 						 InputStream uploadedStream = item.getInputStream();
 						 byte[] bytes = IOUtils.toByteArray(uploadedStream);
 						 System.out.println(Arrays.toString(bytes));
-						//byte[] data = item.get();
-						//System.out.println(Arrays.toString(data));
 						 pdfBean.setFileContent(bytes);
 					}
 				}
